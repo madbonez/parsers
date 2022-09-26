@@ -1,2 +1,13 @@
 node_modules
 .idea
+.cian
+out/items
+out/items
+out/items-*
+out/cian
+out/moscow
+out/tver
+out/vladimir
+out/yaroslavl
+tmp
+*.csv

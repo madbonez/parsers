@@ -2,7 +2,6 @@
   "name": "parsers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open"
   },
@@ -11,5 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.8.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.10",
+    "puppeteer": "^18.0.5",
+    "user-agents": "^1.0.1148"
   }
 }
